@@ -155,6 +155,11 @@ CREATE TABLE user_info (
 * OAuth login (Google, GitHub)
 
 ---
+ link http://localhost/proj/logInPg/signup.php 
+ http://localhost/proj/logInPg/login.php
+<img width="1876" height="917" alt="image" src="https://github.com/user-attachments/assets/3f0749fa-79cc-43c7-b553-95dbb76b3a33" />
+
+<img width="1896" height="917" alt="image" src="https://github.com/user-attachments/assets/a3a61c22-1461-4822-a9bd-fb926e0bb867" />
 
 ## Author
 
