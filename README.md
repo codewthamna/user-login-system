@@ -100,8 +100,10 @@ setcookie('remember', $token, time() + (86400 * 30), "/", "", true, true);
 ## Features
 
 * ✅ Signup with username, email, password
+* ✅ Password Hashing
 * ✅ Secure login via username/email
 * ✅ Session management with regeneration
+* ✅ Cookies
 * ✅ Optional “Remember Me”
 * ✅ CSRF-protected forms
 * ✅ Input validation & sanitization
@@ -114,7 +116,7 @@ setcookie('remember', $token, time() + (86400 * 30), "/", "", true, true);
 * **Frontend:** HTML, CSS, JavaScript
 * **Backend:** PHP (PDO)
 * **Database:** MySQL
-* **Security:** Password hashing, CSRF tokens, session regeneration, HttpOnly cookies
+* **Security:** Password hashing, CSRF tokens, session regeneration, HttpOnly cookies,Https Cookies
 
 ---
 
@@ -149,6 +151,8 @@ CREATE TABLE user_info (
 ## Future Security Improvements
 
 * Email verification on signup
+* Pssword forgotten
+* Password/Email recover
 * Password reset via email
 * Rate-limiting login attempts
 * Two-factor authentication (2FA)
